@@ -1,0 +1,111 @@
+*{
+    border:0;
+    padding:0;
+    margin:0 auto;
+}
+a{
+    text-decoration:none;
+}
+input,teaxtarea
+{
+    outline:none;
+}
+html{
+    height:100%;
+
+}
+body{
+    height:100%;
+}
+.wrapper {
+
+    width: 1000px;
+    height: 600px;
+    background-color: rgba(97,167,207,1);
+    box-shadow: 0px 6px 14px 1px;
+}
+.name_top h3 {
+    color: rgba(45,79,84,1);
+    font-size:32pt;
+}
+.name_top hr {
+    border: 1px solid rgba(88,75,75,1);
+    width: 53%;
+    margin-left: 0;
+}
+.mid .info
+{
+    width: 27%;
+    text-align: center;
+}
+.mid  form div#writeArea {
+    height: 61%;
+    width: 72%;
+    background: white;
+    margin-top: 9%;
+}
+.mid form .left
+{
+    float: left;
+    width: 37%;
+
+}
+.mid form .right{
+    float: right;
+    margin-top: -36%;
+    width: 34%;
+}
+.mid form .left input
+{
+    margin-top: 8%;
+    background: url(../img/button.png) no-repeat;
+    background-size: 100%;
+    /* background-position-x: -14px; */
+    width: 43%;
+    height: 20%;
+    background-position: 3px 3px;
+    cursor:pointer;
+}
+.mid form .left input:hover
+{
+    background: url(../img/button_up.png) no-repeat;
+    background-size: 100%;
+    background-position: 3px 3px;
+}
+.mid form .right input
+{cursor:pointer;
+    margin-top: 8%;
+    background: url(../img/button.png) no-repeat;
+    background-size: 100%;
+    width: 49%;
+    height: 20%;
+}
+.mid form .right input:hover
+{
+    background: url(../img/button_up.png) no-repeat;
+    background-size: 100%;
+}
+input[name="putMoney"] {
+    margin-left: 29%;
+}
+input[name="getZip"] {
+    margin-left: 9.6%;
+}input[name="getMoney"] {
+     margin-left: 4%;
+ }
+input[name="add_for_shure"] {
+    margin-left: 4%;
+}
+input[name="money"]
+{
+    width: 30%;
+    text-align: center;
+    border-bottom: 0.2px solid black;
+    margin-top: 6%;
+    border-radius: 6%;
+}
+input[name="moneycalc"]{
+    border-bottom:1px solid black;
+    display:none;
+    width: 22%;
+}
